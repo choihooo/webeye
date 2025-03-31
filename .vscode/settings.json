@@ -1,4 +1,12 @@
 {
-  "editor.formatOnSave": true,
-  "css.lint.unknownAtRules": "ignore"
+    "editor.formatOnSave": true,
+    "css.lint.unknownAtRules": "ignore",
+    "prettier.singleQuote": false,
+    "eslint.validate": [
+        "javascript",
+        "typescript",
+        "javascriptreact",
+        "typescriptreact"
+    ],
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
 }

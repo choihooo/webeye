@@ -1,8 +1,7 @@
-
 {
     "manifest_version": 3,
-    "name": "Chrome Extension Starter",
-    "description": "A Chrome Extension starter kit",
+    "name": "웹아이",
+    "description": "웹아이",
     "version": "1.0.0",
     "action": {
         "default_icon": {
@@ -20,7 +19,21 @@
         "48": "icon-48.png",
         "128": "icon-128.png"
     },
-    "host_permissions": ["https:\/\/*/*"],
-    "permissions": ["tabs", "activeTab", "notifications", "scripting"]
+    "side_panel": {
+        "default_path": "sidepanel.html"
+    },
+    "host_permissions": ["https://*/*"],
+    "permissions": [
+        "tabs",
+        "activeTab",
+        "notifications",
+        "scripting",
+        "sidePanel"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["js/content.js"]
+        }
+    ]
 }
-

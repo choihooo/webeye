@@ -2,7 +2,7 @@
 
 exports[`component renders 1`] = `
 <div
-  className="popupContainer"
+  className="sidepanelContainer"
 >
   <div
     className="mx-4 my-4"

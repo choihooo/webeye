@@ -10,7 +10,7 @@ exports[`component renders 1`] = `
     <p
       className="lead mb-0"
     >
-      Example Extension
+      한국말 쓰고 싶어
     </p>
   </div>
 </div>
